@@ -2,6 +2,7 @@
      margin: 0px;
      padding: 0px;
 }
+/* General styles*/
 body{
      font-family: 'Roboto', sans-serif;
 }
@@ -27,8 +28,37 @@ a:hover{
 .logo-responsive{
      display: none !important;
 }
+.ea-main-logo{
+     background-color: #f3f3f3;
+     border-radius: 99%;
+}
+.info-secondary{
+     color:#1a1a1a !important;
+}
+.user-information{
+     padding: 100px;
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea{
+     height: 60px !important;
+     border-radius: 0% !important;
+     border: 2px solid #1a1a1a !important;
+}
+.form-control:focus {
+     box-shadow:none;
+}
 
 /*Navbar class*/
+.navbar-user-action{
+     height: 40px !important;
+}
+.navbar-nav-user-action li{
+     margin-top: 20px !important;
+     margin-right: 20px !important;
+}
 .navbar-black{
      background-color: #1a1a1a !important;
      border-radius: 0%;
@@ -67,6 +97,15 @@ a:hover{
      background-color: #f45511;
      color:#f3f3f3 !important;
      transition: all 300ms;
+}
+.btn-buy{
+     margin-right: 30px;
+}
+.btn-subscribe{
+     float: left;
+     margin-top: 20px;
+     margin-left: 12px;
+     padding: 15px;
 }
 /*slider*/
 #slider{
@@ -166,6 +205,21 @@ a:hover{
      font-weight: 700;
      background-color: #1a1a1a;
      color: #f3f3f3;
+}
+.social-img{
+     width: 20%;
+     margin: 0px auto;
+     border-radius: 99%;
+}
+/*User section*/
+#user-section{
+     background-color: #f3f3f3;
+}
+.emblem-image{
+     display: block;
+     height: 195px;
+     width: 195px;
+     float: right;
 }
 
 /*Media query*/

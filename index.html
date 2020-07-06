@@ -21,18 +21,57 @@
 
 <body>
   <!--header-->
-  <nav class="navbar navbar-expand-lg navbar-black navbar-dark bg-dark">
+  <!--User data and support nav-->
+  <nav class="navbar navbar-expand-lg navbar-black navbar-dark bg-dark navbar-user-action">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav text-uppercase ml-auto navbar-nav-user-action">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-1x fa-user"></i>
+          </a>
+          <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-1x fa-question"></i>
+          </a>
+          <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" role="button">
+            <img src="assets/img/1200px-Electronic-Arts-Logo.svg.png" class="ea-main-logo" alt="ea-logo" width="30px"
+              height="30px">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End User data and support nav-->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-black navbar-dark bg-dark ">
     <a class="navbar-brand" href="#">
       <img src="assets/img/battlefield-1-1.svg" width="150" height="41" alt="" loading="lazy">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav text-uppercase ">
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Acerca de
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            ACERCA DE
           </a>
           <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
@@ -41,8 +80,25 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Multimedia
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            MULTIMEDIA
+          </a>
+          <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" role="button">
+            FOROS
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            NOVEDADES
           </a>
           <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
@@ -51,14 +107,20 @@
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Foros
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            VIENTOS DE GUERRA
           </a>
           <div class="dropdown-menu navbar-black " aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" role="button">
+            ELITES
+          </a>
         </li>
       </ul>
 
@@ -120,17 +182,17 @@
     <div class="col-md-12 card-container d-flex align-content-center justify-content-between flex-wrap">
       <!--Card game list-->
       <div class="col-md-4 col-sm-12 my-2">
-        <div class="card card-image-content" style="width: 21rem;">
+        <div class="card card-image-content" style="width: 26rem;">
           <img class="card-img-top card-image-game" src="assets/img/bf1-wallpaper.jpg" alt="Card image cap">
         </div>
       </div>
       <div class="col-md-4 col-sm-12 my-2">
-        <div class="card card-image-content" style="width: 21rem;">
+        <div class="card card-image-content" style="width: 26rem;">
           <img class="card-img-top" src="assets/img/bf3-wallpaper.jpg" alt="Card image cap">
         </div>
       </div>
       <div class="col-md-4 col-sm-12  my-2">
-        <div class="card card-image-content" style="width: 21rem;">
+        <div class="card card-image-content" style="width: 26rem;">
           <img class="card-img-top" src="assets/img/bf4-wallpaper.jpg" alt="Card image cap">
         </div>
       </div>
@@ -143,7 +205,7 @@
         <div class="col-md-12 card-container-news d-flex align-content-between flex-wrap">
           <div class="col-md-4">
             <a href="#">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 22rem;">
                 <img src="assets/img/bf4-wallpaper.jpg" class="card-img-top" alt="">
                 <div class="card-body card-game">
                   <p><span class="card-game-new">Battlefield V</span> | <span class="card-date">11-JUN-2020</span></p>
@@ -155,7 +217,7 @@
           </div>
           <div class="col-md-4">
             <a href="#">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 22rem;">
                 <img src="assets/img/bf4-wallpaper.jpg" class="card-img-top" alt="">
                 <div class="card-body card-game">
                   <p><span class="card-game-new">Battlefield V</span> | <span class="card-date">11-JUN-2020</span></p>
@@ -167,7 +229,7 @@
           </div>
           <div class="col-md-4">
             <a href="#">
-              <div class="card" style="width: 18rem;">
+              <div class="card" style="width: 22rem;">
                 <img src="assets/img/bf4-wallpaper.jpg" class="card-img-top" alt="">
                 <div class="card-body card-game">
                   <p><span class="card-game-new">Battlefield V</span> | <span class="card-date">11-JUN-2020</span></p>
@@ -183,25 +245,102 @@
       <!--Subscribe add-->
       <div class="col-md-4 responsive-small-content">
         <h3 class="subheader-small ">SUSCRÍBETE PARA JUGAR A BATTLEFIELD V**</h3>
-     </div>
+      </div>
       <div class="col-md-8 text-uppercase responsive-small-content">
         <a href="#" class="btn btn-sm btn-orange w-25 mr-0 p-3">Comprar ya!</a>
       </div>
       <!--End subscribe add-->
       <!--More information content-->
       <div class="col-md-12 mt-4 responsive-small-content">
-        <p class="text-white">*PARA JUGAR ES NECESARIO TENER BATTLEFIELD V PARA LA PLATAFORMA CORRESPONDIENTE (SE VENDE POR SEPARADO), TODAS LAS ACTUALIZACIONES DEL JUEGO, CONEXIÓN A INTERNET Y UNA CUENTA EA.</p>
-          <p class="text-white">**EXISTEN CONDICIONES Y LIMITACIONES; PUEDE QUE ALGUNOS TÍTULOS NO ESTÉN INCLUIDOS. MÁS INFORMACIÓN EN origin.com/store/origin-access/terms.</p>
+        <p class="text-white">*PARA JUGAR ES NECESARIO TENER BATTLEFIELD V PARA LA PLATAFORMA CORRESPONDIENTE (SE VENDE
+          POR SEPARADO), TODAS LAS ACTUALIZACIONES DEL JUEGO, CONEXIÓN A INTERNET Y UNA CUENTA EA.</p>
+        <p class="text-white">**EXISTEN CONDICIONES Y LIMITACIONES; PUEDE QUE ALGUNOS TÍTULOS NO ESTÉN INCLUIDOS. MÁS
+          INFORMACIÓN EN origin.com/store/origin-access/terms.</p>
       </div>
       <!--end more information content-->
     </div>
   </section>
   <!--end content-->
+  <!--User register section-->
+  <section id="user-section" class="row bg-white">
+    <div class="col-lg-12 col-md-12 user-information d-flex align-content-center justify-content-center">
+      <div class="col-lg-2 col-md-12">
+        <img src="assets/img/bf-newsletter-image-bfv-emblem.jpg" alt="" class="emblem-image">
+      </div>
+      <div class="col-lg-4 col-md-6 info-user-container">
+        <h2 class="subheader info-secondary">REGÍSTRATE PARA SEGUIR LAS NOTICIAS DE BATTLEFIELD V Y CONSIGUE UN EMBLEMA
+          EN EL JUEGO</h2>
+        <p class="info-secondary">Regístrate hoy mismo para recibir las últimas noticias, vídeos, ofertas y mucho más
+          sobre Battlefield por correo electrónico (incluyendo otros productos, noticias, eventos y promociones de EA).
+          Además, recibirás como extra un emblema exclusivo en Battlefield V por registrarte.</p>
+      </div>
+      <div class="col-lg-6 col-md-6 info-user-container">
+        <form action="#" method="POST" class="row">
+          <div class="form-group col-md-12">
+            <input type="email" class="form-control" placeholder="Correo Electronico">
+          </div>
+          <div class="form-group col-md-6">
+            <input type="date" class="form-control" placeholder="Fecha de nacimiento">
+          </div>
+          <div class="form-group col-md-6">
+            <select name="country" id="country" class="form-control">
+              <option value="0" class="select-items">Seleccione su pais</option>
+              <option value="1" class="select-items">Estados Unidos</option>
+              <option value="2" class="select-items">Mexico</option>
+              <option value="3" class="select-items">Canada</option>
+              <option value="4" class="select-items">Perú</option>
+            </select>
+          </div>
+          <div class="form-check col-md-12 mt-4">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label " for="exampleCheck1">
+              <span>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos deserunt consequatur quis saepe assumenda
+                labore, dicta cum at, ratione sunt, natus delectus quasi! Officia doloremque inventore hic excepturi
+                labore itaque?Porro quod voluptatem, velit minus illum error voluptatum esse ratione cumque! Commodi
+                repellendus dolorem porro odit? Cupiditate recusandae quisquam deserunt dignissimos, quasi adipisci
+                voluptatum tenetur sapiente quas explicabo! Esse, sit.
+              </span>
+            </label>
+          </div>
+          <button type="submit" class="btn btn-md btn-subscribe btn-orange">SUSCRIBIRSE</button>
+        </form>
+      </div>
+    </div>
+
+  </section>
   <!--Footer-->
   <footer id="footer" class="row">
-    <div class="col-md-12 footer-copyright">
+    <div class="col-md-12 footer-copyright mt-4">
       Copyright &copy; Stefano Gomez 2020
-    </div>
+      <div class="col-md-12 my-4">
+        <p class="subheader-small">Visitame en mis redes.</p>
+      </div>
+      <div class="col-md-12 d-flex justify-content-center align-items-between">
+        <div class="col-md-4 ">
+          <a href="" class="text-white ">
+            <img src="assets/img/github.png" alt="" class="social-img bg-white">
+            
+          </a>
+          <p class="text-center mt-4">Github</p>
+        </div>
+        <div class="col-md-4">
+          <a href="" class="text-white">
+            <img src="assets/img/linkedin.png" alt="" class="social-img bg-white">
+            
+          </a>
+          <p class="text-center mt-4">LinkeIn</p>
+        </div>
+
+        <div class="col-md-4">
+          <a href="" class="text-white">
+            <img src="assets/img/twitter.png" alt="" class="social-img bg-white">
+            
+          </a>
+          <p class="text-center mt-4">Twitter</p>
+        </div>
+      </div>
+
   </footer>
   <!--end footer-->
   <!--Scripts-->
